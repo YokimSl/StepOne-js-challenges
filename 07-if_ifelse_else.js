@@ -1,9 +1,13 @@
 /*
 Nesse desafio eu quero que você treine o if… else if… else. 
-Para isso faça uma função chamada findLargest que recebe como parâmetro dois números: 
-num1 e num2. A função deve dar um *console.log* com a frase ‘num1’ is the largest number se o num1 for o maior número,
-‘num2’ is the largest number se o num2 for o maior número ou num1 is equal to num2 se os dois números forem iguais.
+Para isso faça uma função chamada findLargest  que recebe como parâmetro dois números: 
+num1 e num2. 
+A função deve dar um *console.log* com a frase ‘num1’ is the largest number se o num1 for o maior número,
+
+
+‘num2’ is the largest number se o num2 for o maior número ou num1 for igual num2 se os dois números forem iguais.
 Para testar seu código:
+
 depois de declarar a função, chame ela passando os seguintes parâmetros, 
 e deve aparecer essa resposta:
 
@@ -29,13 +33,14 @@ num1 is equal to num2: num 1 é igual ao num2
 // Para testar seu código:
 // depois de declarar a função, chame ela passando os seguintes parâmetros, 
 // e deve aparecer essa resposta:
-
+let num1 = 10;
+let num2 = 20;
 function findLargest(num1, num2) {
-    if () {
-        console.log();
+    if (num1 > num2 ) {
+        console.log(num1);
     }
-    else if () {
-        console.log();
+    else if (num2 >= num1) {
+        console.log( num2 );
     }
     else {
         console.log();

@@ -3,8 +3,10 @@ Esse desafio é muito parecido com o anterior, só que a diferença é que eu qu
 encontre o maior número não mais entre dois números, mas agora entre três números!
 
 Para isso faça uma função chamada findLargest que recebe como parâmetro três números: 
-num1, num2 e num3. A função deve dar um console.log com a frase ‘num1’ is the largest number se o num1 
-for o maior número dos três,  ‘num2’ is the largest number se o num2 for o maior número dos três ou 
+num1, num2 e num3.
+ A função deve dar um console.log com a frase ‘num1’ is the largest number se o num1 
+for o maior número dos três,
+  ‘num2’ is the largest number se o num2 for o maior número dos três ou 
 ’num3’ is the largest number se num3 for o maior número entre os três.
 
 (BUG! Existe uma condição que eu não abordei, mas ela pode acontecer, qual é ela e como você resolveria?) 
@@ -30,14 +32,18 @@ num1 is equal to num2: num 1 é igual ao num2
 // Para testar seu código:
 // depois de declarar a função, chame ela passando os seguintes parâmetros, 
 // e deve aparecer essa resposta:
+let num1 = 20;
+let num2 = 30;
+let num3 = 40;
+
 
 function findLargest(num1, num2, num3) {
-    if () {
-        console.log();
-    } else if () {
-        console.log();
-    } else if () {
-        console.log();
+    if (num1 > num2 && num1 > num3) {
+        console.log(num1);
+    } else if (num2 > num1 && num2 > num3) {
+        console.log(num2);
+    } else if (num3 > num1 && num2) {
+        console.log(num3);
     } else {
         console.log();
     }
