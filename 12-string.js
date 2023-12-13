@@ -5,6 +5,6 @@
 
 // // Exemplo de output: Saty is 4 code units long
 
-const username = "Jhonnata";
+const username = "Jhonnta";
 
-console.log("is " + username.length + " code units long")
+console.log("is " + username.length + " code units long");
